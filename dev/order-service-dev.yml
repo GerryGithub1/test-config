@@ -1,0 +1,13 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/orders?useSSL=false
+    username: '{cipher}AQAD1m1kQIevb1bEhUsOOFF7cgRLYANi9Dmy+m04HAdJnWP/HtTmZb/8vShyxgwQiTQTw9pDbJ5PuG+o6MXDmhVcuPul7Hbk87FEtICO/1an433BTqCcJnwLCp3lDT9HwC8IDhP5PJ5i8jcIWCyENNeXyI8dYuehblxnXW0v7Xp9lBJ54ncGYcB4k93uBGlP7wrhoHr2JQS/NwDDxX0Ns5dXlWmPUkPnys9FGn4Kk0ct03HthD7k/z54T7xIswsyDZRY2+QBZvXBqyV6VJ4f+KGtucUMtK448BVi6BAhISsWH28CiiKWa34TJDmZtYpwJnHxH+dTERBwzLIiiDnp5vpVHRerSMWPGfgfmE2yl2y4wLnk7OCwk3luled/oJ7Dw7U='
+    password: '{cipher}AQBtSLp4lQ3k1pZkvjaBjp4RxGrIn1+qcYvGFdEmJuz3zq5VJ+Z5ES/GDwMZjiORz8HtopxZNoAujCK1D/rv/8FMSPBITpzz4Edk1JbapUYucHR6d27SpYM6jBVOcMyrKRpP2MdLgOI4yqTwY8lA/hYR11Kd5ABYGQVhVP12jdABiyRb3x0tCkjjSxY4jLWoKuxw6NSke0x4dBuaUHcbVmJybWSdZovFNMOdrareGq97blokEHkywKajqVQntIiJev1e8laH7dNejYS6lsGCfdGR8ttmiBXVhAKrlYRWQn02aKk+CwO/KKikuB50j/oIRcPS1eDq94WrtXGORxSOfwbVUi1JK0af2lcNk7k52115MfLEy9MEBAbrC4L3GzvYgWo='
+    type: com.zaxxer.hikari.HikariDataSource
+  rabbitmq:
+    virtual-host: /
+    username: test
+    password: test
+    host: 192.168.3.201
+dev: gerry-litten
